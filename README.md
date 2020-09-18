@@ -1,4 +1,5 @@
 # Inventory Management System using Autonomous Drones
+In a team of 5 students we designed and implemented a system that made it easier to use autonomous drones to automate the inventory management system of a testlab in the IDLab at Ghent University
 
 ## Overview
 
