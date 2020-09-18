@@ -1,0 +1,40 @@
+<form #configForm="ngForm" class="form field-container" (submit)="setProperties(configForm)">
+  <mat-form-field>
+    <label for="droneId">Id</label>
+    <mat-select id="droneId" name="droneId" #droneField="ngModel" [(value)]="simulator.selectedDrone" [(ngModel)]="simulator.drones[simulator.selectedDrone]._id" ngModel>
+      <mat-option *ngFor="let drone of simulator.drones; index as i" (click)="simulator.selectDrone(i)" [value]="drone._id" >
+        {{drone.name}} - {{drone._id}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field>
+    <label for="name">Name</label>
+    <input matInput [disabled]="!auth.isAdmin()" [(ngModel)]="simulator.drones[simulator.selectedDrone].name" name="name" id="name"
+           ngModel>
+  </mat-form-field>
+  <mat-form-field>
+    <label for="radius">Radius</label>
+    <input matInput [disabled]="!auth.isAdmin()" type="number" [(ngModel)]="simulator.drones[simulator.selectedDrone].properties.radius" name="radius"
+           id="radius"
+           ngModel>
+  </mat-form-field>
+  <mat-form-field>
+    <label for="x">Homebase X Coordinate</label>
+    <input matInput [disabled]="!auth.isAdmin()" type="number" [(ngModel)]="simulator.drones[simulator.selectedDrone].properties.homebase.x" name="x"
+           id="x"
+           ngModel>
+  </mat-form-field>
+  <mat-form-field>
+    <label for="y">Homebase Y Coordinate</label>
+    <input matInput [disabled]="!auth.isAdmin()" type="number" [(ngModel)]="simulator.drones[simulator.selectedDrone].properties.homebase.y" name="y"
+           id="y"
+           ngModel>
+  </mat-form-field>
+  <button mat-flat-button color="primary" type="submit" [disabled]="!auth.isAdmin()">
+    Update Drone Configuration
+  </button>
+</form>
+
+
+
+

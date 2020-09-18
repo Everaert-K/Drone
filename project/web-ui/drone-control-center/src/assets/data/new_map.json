@@ -1,0 +1,219 @@
+{
+  "name": "IIoT Lab",
+  "size": {"width": 30190, "height": 10901.9444},
+  "obstacles": [
+    {
+      "positions": [
+        {
+          "x": 2144,
+          "y": 1688
+        },{
+          "x": 16384,
+          "y": 2464
+        }
+      ]
+    },
+    {
+      "positions": [
+        {
+          "x": 2144,
+          "y": 4544
+        },{
+          "x": 16384,
+          "y": 5328
+        }
+      ]
+    },
+    {
+      "positions": [
+        {
+          "x": 2144,
+          "y": 7296
+        },{
+          "x": 16384,
+          "y": 8112
+        }
+      ]
+    }
+  ],
+  "scanzones": [
+    {
+      "position": {
+        "x": 3072,
+        "y": 1024,
+        "z": 1000
+      },
+      "orientation": 180,
+      "range": 450,
+      "name": "SCANLOCATIE",
+      "products": [
+        {
+          "name": "badeendjes",
+          "quantity": 500
+        },
+        {
+          "name": "tassen",
+          "quantity": 30
+        },
+        {
+          "name": "zakdoeken",
+          "quantity": 9001
+        }
+      ]
+    },{
+      "position": {
+        "x": 5120,
+        "y": 1124,
+        "z": 1000
+      },
+      "orientation": 180,
+      "range": 450,
+      "name": "test locatie"
+    }, {
+      "position": {
+        "x": 8000,
+        "y": 3000,
+        "z": 1000
+      },
+      "orientation": 0,
+      "range": 500,
+      "name": "test locatie"
+    },{
+      "position": {
+        "x": 10500,
+        "y": 3100,
+        "z": 1000
+      },
+      "orientation": 0,
+      "range": 650,
+      "name": "test locatie"
+    },{
+      "position": {
+        "x": 17250,
+        "y": 2100,
+        "z": 1000
+      },
+      "orientation": 270,
+      "range": 550,
+      "name": "test locatie",
+      "products": [
+        {
+          "name":"lepels",
+          "quantity": 1
+        },
+        {
+          "name": "drones",
+          "quantity": 7
+        }
+      ]
+    },
+    {
+      "position": {
+        "x": 17250,
+        "y": 7700,
+        "z": 1000
+      },
+      "orientation": 270,
+      "range": 450,
+      "name": "test locatie"
+    },{
+      "position": {
+        "x": 1800,
+        "y": 2150,
+        "z": 1000
+      },
+      "orientation": 90,
+      "range": 350,
+      "name": "test locatie"
+    },{
+      "position": {
+        "x": 1800,
+        "y": 7700,
+        "z": 1000
+      },
+      "orientation": 90,
+      "range": 400,
+      "name": "test locatie"
+    },
+    {
+      "position": {
+        "x": 5500,
+        "y": 5800,
+        "z": 1000
+      },
+      "orientation": 0,
+      "range": 500,
+      "name": "test locatie"
+    },
+    {
+      "position": {
+        "x": 15000,
+        "y": 5800,
+        "z": 1000
+      },
+      "orientation": 0,
+      "range": 450,
+      "name": "test locatie"
+    },
+    {
+      "position": {
+        "x": 22500,
+        "y": 600,
+        "z": 1000
+      },
+      "orientation": 0,
+      "range": 600,
+      "name": "test locatie"
+    },
+    {
+      "position": {
+        "x": 22800,
+        "y": 10000,
+        "z": 1000
+      },
+      "orientation": 180,
+      "range": 450,
+      "name": "test locatie"
+    },
+    {
+      "position": {
+        "x": 12500,
+        "y": 8600,
+        "z": 1000
+      },
+      "orientation": 0,
+      "range": 500,
+      "name": "test locatie"
+    },
+    {
+      "position": {
+        "x": 10500,
+        "y": 8600,
+        "z": 1000
+      },
+      "orientation": 0,
+      "range": 500,
+      "name": "test locatie"
+    },
+    {
+      "position": {
+        "x": 8500,
+        "y": 8600,
+        "z": 1000
+      },
+      "orientation": 0,
+      "range": 500,
+      "name": "test locatie"
+    },
+    {
+      "position": {
+        "x": 6500,
+        "y": 8600,
+        "z": 1000
+      },
+      "orientation": 0,
+      "range": 500,
+      "name": "test locatiee"
+    }
+  ]
+}

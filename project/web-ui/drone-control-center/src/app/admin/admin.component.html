@@ -1,0 +1,23 @@
+<mat-tab-group>
+
+
+
+  <mat-tab label="Map Creation">
+    <app-map-create></app-map-create>
+  </mat-tab>
+
+  <mat-tab label="Map Configuration">
+    <div>
+      <button mat-flat-button (click)="deleteAllMaps()">Delete all maps from database!</button>
+    </div>
+  </mat-tab>
+
+  <mat-tab label="Drone Configuration">
+    <div>
+      <button mat-flat-button (click)="deleteAllDrones()">Delete all drones from database!</button>
+    </div>
+  </mat-tab>
+
+
+
+</mat-tab-group>

@@ -1,0 +1,15 @@
+<div *ngIf="show" class="map" [style.height]="height"
+     leaflet
+     leafletDraw
+     [leafletOptions]="options"
+     (leafletClick)="onLeafletClick($event)"
+     (leafletMapReady)="onMapReady($event)"
+     [leafletDrawOptions]="drawOptions"
+     (leafletDrawReady)="onDrawReady($event)"
+     (leafletDrawCreated)="onDrawCreated($event)"
+     (leafletDrawEdited)="onDrawEdited($event)"
+     (leafletDrawEditStart)="oDrawEditStart($event)"
+     (leafletDrawStart)="onDrawStart($event)"
+     (leafletDrawDeleted)="onDrawDeleted($event)"
+     [leafletLayersControl]="layersControl">
+</div>

@@ -1,0 +1,17 @@
+<div class="container">
+  <h1>Your profile</h1>
+  <form>
+    <div>
+      <h3>Full name</h3>
+      <p>{{ auth.getUserDetails()?.name }}</p>
+    </div>
+    <div>
+      <h3>Email</h3>
+      <p>{{ auth.getUserDetails()?.email }}</p>
+    </div>
+    <div>
+      <h3>Role</h3>
+      <p>{{ auth.getUserDetails()?.role }}</p>
+    </div>
+  </form>
+</div>
